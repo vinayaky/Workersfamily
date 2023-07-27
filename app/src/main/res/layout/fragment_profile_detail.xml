@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    android:orientation="vertical"
+    tools:context=".profileDetail">
+
+
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="200dp"
+      android:id="@+id/profileDetailImage"
+      android:padding="8dp"
+      android:layout_gravity="center"
+      android:src="@drawable/uploadimg"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/profileDetailClint"
+      android:text="Address"
+      android:textAlignment="center"
+      android:layout_marginTop="8dp"
+      android:textSize="24sp"
+      android:layout_gravity="center"
+      android:padding="15dp"
+      android:textColor="@color/white"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/profileDetailName"
+      android:background="@drawable/lavender_layout"
+      android:backgroundTint="@color/white"
+      android:text="name"
+      android:padding="15dp"
+      android:layout_marginTop="14dp"
+      android:textSize="18dp"
+      android:textColor="@color/lavender"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/profileDetailWork"
+      android:backgroundTint="@color/white"
+      android:text="work"
+      android:layout_marginTop="8dp"
+      android:textSize="18sp"
+      android:layout_gravity="center"
+      android:background="@drawable/lavender_layout"
+      android:padding="15dp"
+      android:textColor="@color/lavender"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/profileDetailAdd"
+      android:text="Address"
+      android:background="@drawable/lavender_layout"
+      android:backgroundTint="@color/white"
+      android:layout_marginTop="8dp"
+      android:textSize="18sp"
+      android:layout_gravity="center"
+      android:padding="15dp"
+      android:textColor="@color/lavender"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/profileDetailNumber"
+      android:text="Number"
+      android:backgroundTint="@color/white"
+      android:background="@drawable/lavender_layout"
+      android:layout_marginTop="8dp"
+      android:textSize="18sp"
+      android:layout_gravity="center"
+      android:padding="15dp"
+      android:textColor="@color/lavender"/>
+
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+
+   <com.google.android.material.floatingactionbutton.FloatingActionButton
+       android:id="@+id/updateFab"
+       android:layout_width="wrap_content"
+       android:layout_height="64dp"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginStart="40dp"
+       android:layout_marginTop="40dp"
+       android:layout_marginEnd="40dp"
+       android:layout_marginRight="43dp"
+       android:layout_marginBottom="20dp"
+       android:backgroundTint="@color/white"
+       android:textAlignment="center"
+       android:src="@drawable/ic_baseline_edit_24">
+
+   </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+  </RelativeLayout>
+ </LinearLayout>

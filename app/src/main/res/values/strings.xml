@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Workers family</string>
+    <string name="inter_your_work">inter your work</string>
+    <string name="inter_your_address">inter your address</string>
+    <string name="inter_your_number">inter your number</string>
+    <string name="save">Save</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

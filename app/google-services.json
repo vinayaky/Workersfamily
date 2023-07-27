@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "58462470903",
+    "firebase_url": "https://workersfamily-e5fdb-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "workersfamily-e5fdb",
+    "storage_bucket": "workersfamily-e5fdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58462470903:android:2d82a50a21befa487a49f2",
+        "android_client_info": {
+          "package_name": "com.example.workersfamily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58462470903-oko4hc3j9r4kgebeo2nmk23micceq7hl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRfHa6nUxDaWu9qsZ3oh6v68rKCPgjZOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58462470903-oko4hc3j9r4kgebeo2nmk23micceq7hl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

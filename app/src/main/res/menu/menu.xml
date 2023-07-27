@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+       <group android:checkableBehavior="single">
+              <item
+                     android:id="@+id/Home"
+                     android:icon="@drawable/ic_baseline_home_24"
+                     android:title="Home"
+                  android:iconTint="@drawable/selecter"
+                     />
+              <item
+                     android:id="@+id/profileMenu"
+                     android:icon="@drawable/ic_baseline_people_24"
+                     android:title="Profile"
+                  android:iconTint="@drawable/selecter"
+                  android:menuCategory="secondary"/>
+              <item
+                     android:id="@+id/hiring"
+                     android:icon="@drawable/ic_baseline_people_24"
+                     android:title="Hiring"
+                  android:iconTint="@drawable/selecter"
+                  android:menuCategory="secondary"/>
+
+       </group>
+       <item android:title="Help and Support"
+           android:menuCategory="secondary">
+              <menu>
+                     <item
+                            android:id="@+id/feedback"
+                            android:icon="@drawable/ic_baseline_feedback_24"
+                            android:title="Give feedback"
+                         android:menuCategory="secondary"/>
+                     <item
+                         android:id="@+id/Help"
+                         android:icon="@drawable/ic_baseline_help_24"
+                         android:title="Help"
+                         android:menuCategory="secondary"/>
+              </menu>
+       </item>
+       <item android:title="Authentication"
+           android:menuCategory="secondary">
+              <menu>
+                     <item
+                         android:id="@+id/logOut"
+                         android:icon="@drawable/ic_baseline_logout_24"
+                         android:title="Logout"
+                         android:menuCategory="secondary"/>
+
+              </menu>
+       </item>
+</menu>
